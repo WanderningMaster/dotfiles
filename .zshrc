@@ -2,6 +2,7 @@ export ZSH=/home/andrii/.oh-my-zsh
 export FZF_DEFAULT_COMMAND="fd . $HOME"
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:~/zig-linux
+export PATH=$PATH:~/.cargo/bin
 
 # If you come from bash you might have to change your $PATH.
 
@@ -92,3 +93,18 @@ export PATH=$PATH:/home/andrii/zig
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH=$HOME/.local/bin:$PATH
+. "/home/andrii/.deno/env"
+
+
+cat << "EOF"
+
+ ____       _____ __    __    ___   ____  ____       ____       _____ ___ ___    ___  _      _          _____  ____  ____     ___ 
+|    |     / ___/|  |__|  |  /  _] /    ||    \     |    |     / ___/|   |   |  /  _]| |    | |        |     ||    ||    \   /  _]
+ |  |     (   \_ |  |  |  | /  [_ |  o  ||  D  )     |  |     (   \_ | _   _ | /  [_ | |    | |        |   __| |  | |  _  | /  [_ 
+ |  |      \__  ||  |  |  ||    _]|     ||    /      |  |      \__  ||  \_/  ||    _]| |___ | |___     |  |_   |  | |  |  ||    _]
+ |  |      /  \ ||  `  '  ||   [_ |  _  ||    \      |  |      /  \ ||   |   ||   [_ |     ||     |    |   _]  |  | |  |  ||   [_ 
+ |  |      \    | \      / |     ||  |  ||  .  \     |  |      \    ||   |   ||     ||     ||     |    |  |    |  | |  |  ||     |
+|____|      \___|  \_/\_/  |_____||__|__||__|\_|    |____|      \___||___|___||_____||_____||_____|    |__|   |____||__|__||_____|
+                                                                                                                                  
+
+EOF
